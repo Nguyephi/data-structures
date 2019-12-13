@@ -11,7 +11,6 @@ var Queue = function() {
     obj.count++
   };
 
-
   obj.dequeue = function() {
     if (obj.count > 0) {
     obj.count--;
