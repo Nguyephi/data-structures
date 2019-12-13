@@ -50,5 +50,7 @@ var Node = function(value) {
 
 /*
  * Complexity: What is the time complexity of the above functions?
- * list.addToTail() is O(n);
+ * list.addToTail is 0(n);
+ * list.removeHead is 0(1);
+ * list.contains is 0(n);
  */
