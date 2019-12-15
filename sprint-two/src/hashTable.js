@@ -1,5 +1,3 @@
-
-
 var HashTable = function() {
   this._limit = 8;
   this._storage = LimitedArray(this._limit);
@@ -18,7 +16,7 @@ HashTable.prototype.insert = function(k, v) {
   for (var i = 0; i < bucket.length; i++) {
     var tuple = bucket[i];
     if (tuple[0] === k) {
-      //reasign
+      //reassign
       tuple[1] = v;
       found = true;
       break;
@@ -65,8 +63,6 @@ HashTable.prototype.remove = function(k) {
   }
   return undefined;
 };
-
-
 
 /*
  * Complexity: What is the time complexity of the above functions?
